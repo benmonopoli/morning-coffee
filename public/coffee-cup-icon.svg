@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 88" width="512" height="512">
+  <defs>
+    <linearGradient id="cupGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="hsl(35, 40%, 93%)" />
+      <stop offset="100%" stop-color="hsl(32, 30%, 82%)" />
+    </linearGradient>
+    <linearGradient id="coffeeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="hsl(20, 60%, 18%)" />
+      <stop offset="60%" stop-color="hsl(15, 60%, 8%)" />
+    </linearGradient>
+    <linearGradient id="bandGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="hsl(28, 75%, 45%)" />
+      <stop offset="50%" stop-color="hsl(30, 85%, 56%)" />
+      <stop offset="100%" stop-color="hsl(28, 75%, 45%)" />
+    </linearGradient>
+  </defs>
+  <path d="M12 20 L16 78 C16 82, 20 86, 40 86 C60 86, 64 82, 64 78 L68 20 Z" fill="url(#cupGrad)" stroke="hsl(30, 30%, 55%)" stroke-width="1.5" />
+  <ellipse cx="40" cy="20" rx="28" ry="10" fill="url(#cupGrad)" stroke="hsl(30, 30%, 55%)" stroke-width="1.5" />
+  <ellipse cx="40" cy="20" rx="24" ry="7.5" fill="url(#coffeeGrad)" />
+  <ellipse cx="36" cy="18" rx="6" ry="2" fill="rgba(255,255,255,0.08)" />
+  <rect x="14" y="38" width="52" height="10" rx="2" fill="url(#bandGrad)" opacity="0.8" />
+  <path d="M68 30 C78 30, 84 38, 82 48 C80 56, 74 58, 68 54" fill="none" stroke="hsl(30, 30%, 55%)" stroke-width="2.5" stroke-linecap="round" />
+</svg>

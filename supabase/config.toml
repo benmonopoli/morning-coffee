@@ -1,0 +1,13 @@
+project_id = "your-project-id"
+
+[functions.fetch-jobs]
+verify_jwt = false
+
+[functions.fetch-candidates]
+verify_jwt = false
+
+[functions.analyze-candidate]
+verify_jwt = false
+
+[functions.batch-action]
+verify_jwt = false

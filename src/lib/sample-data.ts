@@ -1,0 +1,57 @@
+import type { ResultsByRole } from "./types";
+
+export const sampleResultsByRole: ResultsByRole = {
+  "Example Role": {
+    job_id: 1000000001,
+    candidates: [
+      {
+        name: "Jane Smith",
+        candidate_id: 2000000001,
+        application_id: 3000000001,
+        job_id: 1000000001,
+        role: "Example Role",
+        source: "Website",
+        current_stage_id: 4000000001,
+        current_stage_name: "Application Review",
+        analysis: {
+          summary: "Strong candidate with relevant experience and portfolio.",
+          strengths: ["Portfolio available", "Appropriate compensation expectation", "Strong background"],
+          concerns: ["Limited data available for deeper assessment"],
+          recommendation: "Strong Progress",
+          reasoning: "Meets role requirements based on available information.",
+          fake_likelihood: "low",
+        },
+        geo_excluded: false,
+        geo_detail: "United States (screening)",
+        geo_source: "screening",
+        repeat_rejected: false,
+        repeat_count: 0,
+        reject_flag: null,
+      },
+      {
+        name: "John Doe",
+        candidate_id: 2000000002,
+        application_id: 3000000002,
+        job_id: 1000000001,
+        role: "Example Role",
+        source: "LinkedIn",
+        current_stage_id: 4000000001,
+        current_stage_name: "Application Review",
+        analysis: {
+          summary: "Candidate based in a location outside hiring regions.",
+          strengths: ["Relevant skills mentioned"],
+          concerns: ["Geo-excluded region"],
+          recommendation: "Reject",
+          reasoning: "Candidate is based in a geo-excluded region.",
+          fake_likelihood: "low",
+        },
+        geo_excluded: true,
+        geo_detail: "Excluded region (screening)",
+        geo_source: "screening",
+        repeat_rejected: false,
+        repeat_count: 0,
+        reject_flag: "geo",
+      },
+    ],
+  },
+};
