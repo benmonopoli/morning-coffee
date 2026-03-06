@@ -12,6 +12,8 @@ Each morning, Morning Coffee fetches your active pipeline from Greenhouse and ru
 - **Team access** — authentication-gated with an admin-managed allow list
 - **Daily coffee recipe** — the load screen surfaces a different coffee recipe each day, so while the report is brewing, so is something worth drinking
 
+![Morning Coffee load screen](docs/load-screen.png)
+
 ## How the AI analysis works
 
 The `analyze-candidate` edge function sends each candidate's screening answers, role context, and source to Claude (Anthropic). The prompt instructs the model to act as a senior recruiter reviewing an application — assessing fit against the role, flagging red flags in screening answers, and recommending an action.
