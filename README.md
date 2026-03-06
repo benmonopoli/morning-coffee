@@ -10,6 +10,7 @@ Each morning, Morning Coffee fetches your active pipeline from Greenhouse and ru
 - **Batch actions** — advance or reject candidates directly from the report without going back to Greenhouse
 - **Past reports** — all previous reports are stored and browsable
 - **Team access** — authentication-gated with an admin-managed allow list
+- **Daily coffee recipe** — the load screen surfaces a different coffee recipe each day, so while the report is brewing, so is something worth drinking
 
 ## How the AI analysis works
 
